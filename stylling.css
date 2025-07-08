@@ -260,6 +260,22 @@ body {
 }
 
 /* Responsive Styles */
+
+/* Fluid Typography for main header */
+.welcome-message h1 {
+    font-size: clamp(1.5rem, 4vw, 1.8rem);
+}
+
+
+/* For tablets and smaller desktops */
+@media (max-width: 1024px) {
+    .bracket-container {
+        overflow-x: auto; /* Allow horizontal scrolling on tablets if needed */
+        padding-bottom: 15px;
+    }
+}
+
+/* For mobile devices */
 @media (max-width: 768px) {
     .page-header {
         flex-direction: column;
@@ -278,13 +294,10 @@ body {
         width: 48%;
     }
 
-    .welcome-message h1 {
-        font-size: 1.5rem;
-    }
-
     .bracket-container {
         flex-direction: column;
         gap: 20px;
+        overflow-x: visible; /* Disable horizontal scroll for stacked view */
     }
 
     .round {
@@ -297,5 +310,19 @@ body {
 
     .teams-grid_grid__SddEf {
         grid-template-columns: 1fr;
+    }
+}
+
+/* For smaller mobile devices */
+@media (max-width: 480px) {
+    .welcome-message h1 {
+        font-size: 1.3rem;
+    }
+    .main-nav button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+    .round-title {
+        font-size: 1.2rem;
     }
 }
