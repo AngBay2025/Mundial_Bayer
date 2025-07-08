@@ -258,3 +258,44 @@ body {
 .team-card-body-row_label__f4AIf {
     color: #aaa;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main-nav {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-nav button {
+        width: 48%;
+    }
+
+    .welcome-message h1 {
+        font-size: 1.5rem;
+    }
+
+    .bracket-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .round {
+        width: 100%;
+    }
+
+    .match {
+        width: 100%;
+    }
+
+    .teams-grid_grid__SddEf {
+        grid-template-columns: 1fr;
+    }
+}
