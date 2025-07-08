@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
              { header: "5 Jul", team1: { name: "Real Madrid C.F.", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/30504" }, score1: ' ', team2: { name: "Borussia Dortmund", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1914854" }, score2: ' ' },
         ],
         "semi-finals": [
-            { header: "8 Jul", team1: { name: "Ganador QF1", crest: "https://via.placeholder.com/40" }, score1: ' ', team2: { name: "Ganador QF2", crest: "https://via.placeholder.com/40" }, score2: ' ' },
-            { header: "9 Jul", team1: { name: "Ganador QF3", crest: "https://via.placeholder.com/40" }, score1: ' ', team2: { name: "Ganador QF4", crest: "https://via.placeholder.com/40" }, score2: ' ' },
+            { header: "8 Jul", team1: { name: "Fluminense FC", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1956274" }, score1: ' ', team2: { name: "Chelsea FC", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1935290" }, score2: ' ' },
+            { header: "9 Jul", team1: { name: "Paris Saint-Germain", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1956449" }, score1: ' ', team2: { name: "Real Madrid C.F.", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/30504" }, score2: ' ' },
         ],
         "final": [
             { header: "13 Jul", team1: { name: "Ganador SF1", crest: "https://via.placeholder.com/40" }, score1: ' ', team2: { name: "Ganador SF2", crest: "https://via.placeholder.com/40" }, score2: ' ' },
