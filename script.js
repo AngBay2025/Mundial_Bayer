@@ -104,8 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     <div>
                         <h3 class="team-card_teamName__-2Ckj">
-                            <span class="d-md-none"><span title="" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${team.name}</span></span>
-                            <span class="d-none d-md-block"><span title="" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${team.name}</span></span>
+                            <span title="" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${team.name}</span>
                         </h3>
                     </div>
                 </div>
