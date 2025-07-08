@@ -46,10 +46,10 @@ document.addEventListener('DOMContentLoaded', () => {
             { header: "1 Jul", team1: { name: "Borussia Dortmund", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1914854" }, score1: 2, team2: { name: "CF Monterrey", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1932136" }, score2: 1 },
         ],
         "quarter-finals": [
-             { header: "4 Jul", team1: { name: "Fluminense FC", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1956274" }, score1: 1, team2: { name: "Al Hilal", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1943992" }, score2: 0 },
-             { header: "4 Jul", team1: { name: "Palmeiras", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1884426" }, score1: 1, team2: { name: "Chelsea FC", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1935290" }, score2: 0 },
-             { header: "5 Jul", team1: { name: "Paris Saint-Germain", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1956449" }, score1: 1, team2: { name: "FC Bayern München", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1914810" }, score2: 0 },
-             { header: "5 Jul", team1: { name: "Real Madrid C.F.", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/30504" }, score1: 1, team2: { name: "Borussia Dortmund", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1914854" }, score2: 0 },
+             { header: "4 Jul", team1: { name: "Fluminense FC", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1956274" }, score1: 2, team2: { name: "Al Hilal", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1943992" }, score2: 1 },
+             { header: "4 Jul", team1: { name: "Palmeiras", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1884426" }, score1: 1, team2: { name: "Chelsea FC", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1935290" }, score2: 2 },
+             { header: "5 Jul", team1: { name: "Paris Saint-Germain", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1956449" }, score1: 2, team2: { name: "FC Bayern München", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1914810" }, score2: 0 },
+             { header: "5 Jul", team1: { name: "Real Madrid C.F.", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/30504" }, score1: 3, team2: { name: "Borussia Dortmund", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1914854" }, score2: 2 },
         ],
         "semi-finals": [
             { header: "8 Jul", team1: { name: "Fluminense FC", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1956274" }, score1: ' ', team2: { name: "Chelsea FC", crest: "https://api.fifa.com/api/v3/picture/teams-sq-4/1935290" }, score2: ' ' },
