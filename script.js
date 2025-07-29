@@ -64,6 +64,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const teamsView = document.getElementById('teams-view');
     const showClassificationBtn = document.getElementById('show-classification');
     const showTeamsBtn = document.getElementById('show-teams');
+    const dateElement = document.getElementById('date');
+    const timeElement = document.getElementById('time');
+
+    function updateTime() {
+        const now = new Date();
+        const options = { timeZone: 'America/Mexico_City', hour12: true, hour: 'numeric', minute: 'numeric', second: 'numeric' };
+        const dateOptions = { timeZone: 'America/Mexico_City', weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        
+        timeElement.textContent = now.toLocaleTimeString('es-MX', options);
+        dateElement.textContent = now.toLocaleDateString('es-MX', dateOptions);
+    }
+
+    setInterval(updateTime, 1000);
+    updateTime();
 
     showClassificationBtn.addEventListener('click', () => {
         classificationView.style.display = 'flex';
